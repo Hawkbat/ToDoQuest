@@ -3,8 +3,7 @@ var webpack = require('webpack')
 
 var config = {
 	entry: {
-		'bundle': './src/app.tsx',
-		'bundle.min': './src/app.tsx'
+		'bundle': './src/app.tsx'
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
